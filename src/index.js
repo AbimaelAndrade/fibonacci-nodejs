@@ -12,9 +12,9 @@ const fibonacci = (max = 350) => {
     }
 
     return sequence;
-}
+};
 
-const defaultType = { sequence = [0, 1], max = 10 };
+const defaultType = { sequence: [0, 1], max: 10 };
 
 const fibonacciUseRecursivy = ({ sequence = [0, 1], max = 350 } = defaultType) => {
     const temp = [...sequence];
